@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -z "$CFILE" ]; then
+  echo "Error: CFILE variable not set. Please set CFILE to the name of the input C file."
+  exit 1
+fi
+
+# Run the C file through the preprocessor and save the result to the output file.
+gcc -E "$CFILE" -o c
+
+echo "Preprocessing complete. Result saved to c."
