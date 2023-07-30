@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "main.h"
+#include <unistd.h>  // Include the <unistd.h> header for the write function
 
 /**
  * main - print putchar followed by a new line
