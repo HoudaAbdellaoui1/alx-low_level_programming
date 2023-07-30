@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "main.h"
 
 /**
  * main - print putchar followed by a new line
@@ -19,4 +20,9 @@ putchar('a');
 putchar('r');
 putchar('\n');
 return (0);
+}
+
+int _putchar(char c)
+{
+    return write(1, &c, 1);
 }
