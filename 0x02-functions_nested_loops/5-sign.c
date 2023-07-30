@@ -19,10 +19,10 @@ else if (n == 0)
 _putchar('0');
 val = 0;
 }
-else
+else if (n < 0)
 {
 _putchar('-');
 val = -1;
 }
-return (val);
+return val;
 }
