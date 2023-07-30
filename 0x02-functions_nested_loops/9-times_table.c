@@ -8,21 +8,31 @@
 
 void times_table(void)
 {
-int i;
-int j;
-for (i = 0; i <= 9; i++)
+int n, j, k, l, m;
+
+for (n = 0; n < 10; n++)
 {
-for (j = 0; j <= 9; j++)
+for (j = 0; j < 10; j++)
 {
-if (j < 9)
+k = n * j;
+if (k < 10 && j != 0)
 {
-printf("%2d, ", i * j);
+_putchar(44);
+_putchar(32);
+_putchar(32);
 }
-else
+if (k < 10)
+_putchar('0' + k);
+if (k > 9)
 {
-printf("%2d", i * j);
+l = k / 10;
+m = k % 10;
+_putchar(44);
+_putchar(32);
+_putchar('0' + l);
+_putchar('0' + m);
 }
 }
-printf("\n");
+_putchar('\n');
 }
 }
