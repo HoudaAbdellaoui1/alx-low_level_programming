@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * add - adds to integers
+ * print_to_98 - prints natural numbers from n to 98
  * @n: integer param
  * Return: 0 if exited properly, non-zero otherwise
  */
@@ -13,6 +13,10 @@ int i;
 
 for (i=n; i <= 98; i++)
 {
+while (i != 98)
+{
 printf("%d, ", i);
+}
+printf("%d", i);
 }
 }
