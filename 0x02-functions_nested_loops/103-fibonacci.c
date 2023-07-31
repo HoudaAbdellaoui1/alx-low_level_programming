@@ -6,7 +6,7 @@
  * Return: Always 0.
  */
 
-int main()
+int main(void)
 {
 int limit = 4000000;
 int fib1 = 1, fib2 = 2;
@@ -24,5 +24,5 @@ fib1 = fib2;
 fib2 = nextFib;
 }
 printf("%d\n", evenSum);
-return 0;
+return (0);
 }
