@@ -13,7 +13,7 @@ int i;
 
 for (i=n; i <= 98; i++)
 {
-while (i != 98)
+while (i !== 98)
 {
 printf("%d, ", i);
 }
