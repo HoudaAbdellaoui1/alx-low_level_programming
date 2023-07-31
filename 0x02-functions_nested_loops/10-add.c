@@ -3,8 +3,9 @@
 
 /**
  * add - adds to integers
- * @a: integer param, @b: integer param
- * Return integer
+ * @a: integer param
+ * @b: integer param
+ * Return: sum
  */
 
 int add(int a, int b)
