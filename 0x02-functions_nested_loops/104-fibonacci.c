@@ -8,9 +8,10 @@
 void printFibonacci(int n)
 {
 int fib1 = 1, fib2 = 2;
+int i;
 
 printf("%d, %d", fib1, fib2);
-for (int i = 2; i < n; i++)
+for (i = 2; i < n; i++)
 {
 int nextFib = fib1 + fib2;
 printf(", %d", nextFib);
