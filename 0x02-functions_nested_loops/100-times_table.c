@@ -40,7 +40,8 @@ if (y != n)
 _putchar(',');
 _putchar(' ');
 }
-}_putchar('\n');
-		x++;
-	}
+}
+_putchar('\n');
+x++;
+}
 }
