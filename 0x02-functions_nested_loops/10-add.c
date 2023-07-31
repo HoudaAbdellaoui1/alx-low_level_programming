@@ -3,7 +3,7 @@
 
 /**
  * add - adds to integers
- * @int, @int 
+ * @a: integer param, @b: integer param
  * Return integer
  */
 
@@ -12,5 +12,5 @@ int add(int a, int b)
 int sum;
 
 sum = a + b;
-return(sum);
+return (sum);
 }
