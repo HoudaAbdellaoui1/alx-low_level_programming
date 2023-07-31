@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#define MAX_FIB 50
 
 /**
  * main - check the code
@@ -7,26 +8,26 @@
  * Return: Always 0.
  */
 
-void printfonacci(int n)
+void printfonacci()
 {
-int f[n];
+int f[MAX_FIB];
+int i;
 
 f[0] = 1;
 f[1] = 2;
-for (int i = 2; i < n; i++)
+for (int i = 2; i < MAX_FIB; i++)
 {
 f[i] = f[i - 1] + f[i - 2];
 }
-for (int i = 0; i < n - 1; i++)
+for (i = 0; i < MAX_FIB - 1; i++)
 {
 printf("%d, ", f[i]);
 }
-printf("%d\n", f[n - 1]);
+printf("%d\n", f[MAX_FIB - 1]);
 }
 
 int main()
 {
-int n = 50;
-printfonacci(n);
+printfonacci();
 return 0;
 }
