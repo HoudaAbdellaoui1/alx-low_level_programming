@@ -7,26 +7,26 @@
  * Return: Always 0.
  */
 
-void printFibonacci(int n)
+void printfonacci(int n)
 {
-int fib[n];
+int f[n];
 
-fib[0] = 1;
-fib[1] = 2;
+f[0] = 1;
+f[1] = 2;
 for (int i = 2; i < n; i++)
 {
-fib[i] = fib[i - 1] + fib[i - 2];
+f[i] = f[i - 1] + f[i - 2];
 }
 for (int i = 0; i < n - 1; i++)
 {
-printf("%d, ", fib[i]);
+printf("%d, ", f[i]);
 }
-printf("%d\n", fib[n - 1]);
+printf("%d\n", f[n - 1]);
 }
 
 int main()
 {
 int n = 50;
-printFibonacci(n);
+printfonacci(n);
 return 0;
 }
