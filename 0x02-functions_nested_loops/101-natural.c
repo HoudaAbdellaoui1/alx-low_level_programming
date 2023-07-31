@@ -16,6 +16,6 @@ if (num % 3 == 0 || num % 5 == 0) {
 total += num;
 }
 }
-printf(total);
+printf("%d", total);
 return 0;
 }
