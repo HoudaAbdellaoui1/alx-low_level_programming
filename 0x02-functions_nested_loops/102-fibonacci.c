@@ -15,7 +15,7 @@ int i;
 
 f[0] = 1;
 f[1] = 2;
-for (int i = 2; i < MAX_FIB; i++)
+for (i = 2; i < MAX_FIB; i++)
 {
 f[i] = f[i - 1] + f[i - 2];
 }
