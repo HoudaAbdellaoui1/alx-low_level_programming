@@ -1,8 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints a square, followed by a new line,
- * 
  * Return: 0 if exited properly, non-zero otherwise
  */
 
