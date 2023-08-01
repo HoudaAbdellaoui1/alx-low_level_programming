@@ -6,7 +6,7 @@
  * Return: 0 if exited properly, non-zero otherwise
  */
 
-void main ()
+int main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
