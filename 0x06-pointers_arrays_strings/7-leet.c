@@ -19,9 +19,9 @@ leetMap['l'] = leetMap['L'] = '1';
 
 for (i = 0; str[i] != '\0'; i++)
 {
-if (leetMap[str[i]] != 0)
+if (leetMap[(int)str[i]] != 0)
 {
-str[i] = leetMap[str[i]];
+str[i] = leetMap[(int)str[i]];
 }
 }
 return (str);
