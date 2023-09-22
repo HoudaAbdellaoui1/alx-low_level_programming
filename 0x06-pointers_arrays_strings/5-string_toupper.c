@@ -6,6 +6,7 @@
  *
  * Return: A pointer to the modified string 'str'.
  */
+
 char *string_toupper(char *str)
 {
 char *ptr = str;
@@ -18,6 +19,6 @@ if (*ptr >= 'a' && *ptr <= 'z')
 }
 ptr++;
 }
-return str;
+return (str);
 }
 
