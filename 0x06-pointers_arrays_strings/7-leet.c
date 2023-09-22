@@ -24,5 +24,5 @@ if (leetMap[(int)str[i]] != 0)
 str[i] = leetMap[(int)str[i]];
 }
 }
-return (str);
+return str;
 }
