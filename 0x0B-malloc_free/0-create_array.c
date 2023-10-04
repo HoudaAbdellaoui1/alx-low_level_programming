@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stddef.h>
 #include <stdlib.h>
+
 /**
- * *create_array - t creates an array of chars, and initializes it with a specific char
+ * *create_array - t creates an array of chars, and initializes it
  * @size : unsigned integer parameter
  * @c : character parameter
  * Return: NULL or pointer
@@ -11,7 +12,7 @@
 char *create_array(unsigned int size, char c)
 {
 char *arr;
-unsigned int i;
+unsigned int i=0;
 
 if (size == 0)
 return NULL;
