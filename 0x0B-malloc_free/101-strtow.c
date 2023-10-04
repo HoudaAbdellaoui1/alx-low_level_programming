@@ -52,18 +52,19 @@ return count;
  * Return: A pointer to an array of strings (words), or NULL on failure.
  *         The last element of the returned array is NULL.
  */
- 
+
 char **strtow(char *str)
 {
-int i = 0;
+int i = 0, j = 0;
 char *start;
 int word_length;
+int num_words;
 
 if (str == NULL || *str == '\0')
 {
 return (NULL);
 }
-int num_words = count_words(str);
+num_words = count_words(str);
 char **result = (char **)malloc((num_words + 1) * sizeof(char *));
 if (result == NULL)
 {
@@ -86,7 +87,7 @@ word_length = str - start;
 result[i] = (char *)malloc((word_length + 1) * sizeof(char));
 if (result[i] == NULL)
 {
-for (int j = 0; j < i; j++)
+for (j = 0; j < i; j++)
 {
 free(result[j]);
 }
