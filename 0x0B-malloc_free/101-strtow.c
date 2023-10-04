@@ -42,7 +42,7 @@ in_word = 0;
 }
 str++;
 }
-return count;
+return (count);
 }
 
 /**
