@@ -59,13 +59,14 @@ int i = 0, j = 0;
 char *start;
 int word_length;
 int num_words;
+char **result;
 
 if (str == NULL || *str == '\0')
 {
 return (NULL);
 }
 num_words = count_words(str);
-char **result = (char **)malloc((num_words + 1) * sizeof(char *));
+result = (char **)malloc((num_words + 1) * sizeof(char *));
 if (result == NULL)
 {
 return (NULL);
