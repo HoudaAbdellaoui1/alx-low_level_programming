@@ -11,7 +11,7 @@
 int *array_range(int min, int max)
 {
 int *arr;
-int size, i;
+int size, i = 0;
 
 if (min > max)
 return (NULL);
