@@ -1,12 +1,12 @@
 #include <stddef.h>
 
 /**
- * int_index - searches for an integer in an array using a comparison function
+ * int_index - searches for an integer in an array
  * @array: an array of integers
  * @size: the number of elements in the array
  * @cmp: a pointer to the comparison function
  *
- * Return: the index of the first element for which the cmp function does not return 0
+ * Return
  * If no element matches, return -1
  * If size <= 0, return -1
  */
