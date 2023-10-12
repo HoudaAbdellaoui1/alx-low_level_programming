@@ -1,10 +1,8 @@
-#include <stdlib.h>
 #include <stdarg.h>
 
 /**
  * *sum_them_all - sum parameters
  * @n: the number of parameters
- * @...: variable number of arguments
  * Return: the sum of all parameters
  */
 
