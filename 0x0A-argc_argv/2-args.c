@@ -10,7 +10,6 @@
 
 int main(int argc, char **argv)
 {
-int num_arguments = argc - 1;
 int i = 0;
 
 (void)argv;
