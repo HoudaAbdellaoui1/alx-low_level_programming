@@ -1,17 +1,16 @@
 #include <stdio.h>
-#include <string.h>
 
-int main(int argc, char *argv[]) {
-if (argc > 0)
+/**
+ * main - prints its name, followed by a new line.
+ * @argc: argument count
+ * @argv: arguments
+ *
+ * Return: 0
+ */
+int main(int argc, char **argv)
 {
-char *program_name = argv[0];
-char *last_slash = strrchr(program_name, '/');
+(void)argc;
 
-if (last_slash != NULL)
-program_name = last_slash + 1;       
-if (strncmp(program_name, "./", 2) == 0)
-program_name += 2;        
-printf("%s\n", program_name);
-}    
+printf("%s\n", argv[0]);
 return (0);
 }
