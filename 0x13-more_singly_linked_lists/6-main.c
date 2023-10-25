@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 653ca5096a7709b5c5a239dd0fc565455d4135bc
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
