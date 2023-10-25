@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "your_header.h"  // Include your header file that defines listint_t
+#include "lists.h"
 
 /**
  * print_listint_safe - Prints a listint_t linked list safely.
