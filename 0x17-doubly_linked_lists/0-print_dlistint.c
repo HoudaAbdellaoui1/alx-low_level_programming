@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "lists.h"  // Assuming dlistint_t and its related structures are defined in lists.h
+#include "lists.h"
 
 /**
  * print_dlistint - Prints all the elements of a dlistint_t list.
