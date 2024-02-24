@@ -5,7 +5,8 @@ def island_perimeter(grid):
     Calculate the perimeter of the island described in grid.
 
     Args:
-    - grid (List[List[int]]): A list of lists of integers representing the grid.
+    - grid (List[List[int]]): A list of lists
+    of integers representing the grid.
 
     Returns:
     - int: The perimeter of the island.
@@ -13,7 +14,6 @@ def island_perimeter(grid):
     perimeter = 0
     rows = len(grid)
     cols = len(grid[0])
-
     for i in range(rows):
         for j in range(cols):
             if grid[i][j] == 1:
