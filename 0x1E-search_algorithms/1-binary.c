@@ -32,7 +32,7 @@ for (i = l; i <= r; i++)
 printf("%d", array[i]);
 if (i < r)
 {
-    printf(", ");
+printf(", ");
 }
 }
 printf("\n");
