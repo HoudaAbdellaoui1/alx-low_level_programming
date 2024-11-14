@@ -18,7 +18,8 @@ int low = 0;
 
 while (low <= high)
 {
-size_t pos = low + (((double)(high - low) / (array[high] - array[low])) * (value - array[low]));
+size_t pos = low + (((double)(high - low) / );
+size_t denul
 printf("Value checked array[%ld] ", pos);
 if (pos >= size)
 {
